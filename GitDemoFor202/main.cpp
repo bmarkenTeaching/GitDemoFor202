@@ -7,8 +7,12 @@
 //
 
 #include <iostream>
-using namespace std;        //because i am a lazy person
-
+using std::cout;    //because you are a stupid person
+using std::endl;
+void addTwo(int a, int b)
+{
+	cout << a+b << endl;
+}
 int main(int argc, const char * argv[])
 {
 

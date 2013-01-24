@@ -9,7 +9,9 @@
 #include <iostream>
 using std::cout;    //because you are a stupid person
 using std::endl;
-void addTwo(int a, int b)
+
+
+void addTwo(double a, double b)
 {
 	cout << a+b << endl;
 }

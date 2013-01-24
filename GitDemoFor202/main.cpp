@@ -10,8 +10,8 @@
 using std::cout;    //because you are a stupid person
 using std::endl;
 
-
-void addTwo(double a, double b)
+//now its got two different kinds of parameters
+void addTwo(int a, double b)
 {
 	cout << a+b << endl;
 }
